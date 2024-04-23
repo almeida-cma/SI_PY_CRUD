@@ -1,0 +1,47 @@
+-- Verificar se o banco de dados mypy existe
+CREATE DATABASE IF NOT EXISTS mypy;
+
+-- Usar o banco de dados mypy
+USE mypy;
+
+-- Verificar se a tabela vendas existe
+CREATE TABLE IF NOT EXISTS vendas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    data DATE,
+    produto VARCHAR(100),
+    quantidade INT,
+    valor_unitario DECIMAL(10, 2),
+    total DECIMAL(10, 2)
+);
+
+-- Inserir os registros na tabela vendas
+INSERT INTO vendas (data, produto, quantidade, valor_unitario, total) VALUES
+('2024-04-06', 'Produto D', 2, 18.50, 37.00),
+('2024-04-07', 'Produto E', 1, 25.00, 25.00),
+('2024-04-08', 'Produto F', 3, 12.00, 36.00),
+('2024-04-09', 'Produto G', 2, 10.50, 21.00),
+('2024-04-10', 'Produto H', 1, 30.00, 30.00),
+('2024-04-11', 'Produto I', 2, 15.00, 30.00),
+('2024-04-12', 'Produto J', 3, 20.00, 60.00),
+('2024-04-13', 'Produto K', 1, 8.50, 8.50),
+('2024-04-14', 'Produto L', 2, 22.00, 44.00),
+('2024-04-15', 'Produto M', 1, 17.00, 17.00),
+('2024-04-16', 'Produto N', 3, 11.50, 34.50),
+('2024-04-17', 'Produto O', 2, 26.00, 52.00),
+('2024-04-18', 'Produto P', 1, 14.00, 14.00),
+('2024-04-19', 'Produto Q', 2, 18.00, 36.00),
+('2024-04-20', 'Produto R', 3, 13.50, 40.50),
+('2024-04-21', 'Produto S', 1, 21.00, 21.00),
+('2024-04-22', 'Produto T', 2, 16.00, 32.00),
+('2024-04-23', 'Produto U', 3, 9.00, 27.00),
+('2024-04-24', 'Produto V', 1, 27.00, 27.00),
+('2024-04-25', 'Produto W', 2, 12.00, 24.00),
+('2024-04-26', 'Produto X', 3, 19.00, 57.00),
+('2024-04-27', 'Produto Y', 1, 15.50, 15.50),
+('2024-04-28', 'Produto Z', 2, 23.00, 46.00),
+('2024-04-29', 'Produto A', 3, 10.00, 30.00),
+('2024-04-30', 'Produto B', 1, 20.00, 20.00),
+('2024-05-01', 'Produto C', 2, 14.50, 29.00),
+('2024-05-02', 'Produto D', 3, 18.00, 54.00),
+('2024-05-03', 'Produto E', 1, 25.50, 25.50),
+('2024-05-04', 'Produto F', 2, 11.00, 22.00);

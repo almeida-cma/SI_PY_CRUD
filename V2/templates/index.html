@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD de Vendas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Vendas</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Data</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor Unitário</th>
+                    <th>Total</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for venda in vendas %}
+                <tr>
+                    <td>{{ venda[0] }}</td>
+                    <td>{{ venda[1] }}</td>
+                    <td>{{ venda[2] }}</td>
+                    <td>{{ venda[3] }}</td>
+                    <td>{{ venda[4] }}</td>
+                    <td>{{ venda[5] }}</td>
+                    <td>
+                        <a href="{{ url_for('update', id=venda[0]) }}" class="btn btn-primary">Editar</a>
+                        <a href="{{ url_for('delete', id=venda[0]) }}" class="btn btn-danger">Excluir</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{{ url_for('insert') }}" class="btn btn-success">Inserir Nova Venda</a>
+        <a href="{{ url_for('formulario') }}" class="btn btn-primary">Realizar Consulta</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados da Consulta</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados da Consulta</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Data</th>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>Valor Unitário</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for venda in vendas %}
+                <tr>
+                    <td>{{ venda[0] }}</td>
+                    <td>{{ venda[1] }}</td>
+                    <td>{{ venda[2] }}</td>
+                    <td>{{ venda[3] }}</td>
+                    <td>{{ venda[4] }}</td>
+                    <td>{{ venda[5] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <a href="{{ url_for('formulario') }}" class="btn btn-primary">Realizar Nova Consulta</a>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Voltar para Lista de Vendas</a>
+    </div>
+</body>
+</html>

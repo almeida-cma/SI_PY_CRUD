@@ -1,0 +1,90 @@
+-- Atualizar dados para o ID 1
+UPDATE vendas SET data = '2024-04-22', produto = 'Borracha', quantidade = 2, valor_unitario = 1.45, total = 2.9 WHERE id = 1;
+
+-- Atualizar dados para o ID 2
+UPDATE vendas SET data = '2024-04-22', produto = 'Lápis', quantidade = 1, valor_unitario = 2, total = 2 WHERE id = 2;
+
+-- Atualizar dados para o ID 3
+UPDATE vendas SET data = '2024-04-22', produto = 'Caderno', quantidade = 3, valor_unitario = 12, total = 36 WHERE id = 3;
+
+-- Atualizar dados para o ID 4
+UPDATE vendas SET data = '2024-04-22', produto = 'Caderno', quantidade = 2, valor_unitario = 12, total = 24 WHERE id = 4;
+
+-- Atualizar dados para o ID 5
+UPDATE vendas SET data = '2024-04-21', produto = 'Borracha', quantidade = 1, valor_unitario = 1.45, total = 1.45 WHERE id = 5;
+
+-- Atualizar dados para o ID 6
+UPDATE vendas SET data = '2024-04-21', produto = 'Borracha', quantidade = 2, valor_unitario = 1.45, total = 2.9 WHERE id = 6;
+
+-- Atualizar dados para o ID 7
+UPDATE vendas SET data = '2024-04-20', produto = 'Borracha', quantidade = 3, valor_unitario = 1.45, total = 4.35 WHERE id = 7;
+
+-- Atualizar dados para o ID 8
+UPDATE vendas SET data = '2024-04-20', produto = 'Lápis', quantidade = 1, valor_unitario = 1.2, total = 1.2 WHERE id = 8;
+
+-- Atualizar dados para o ID 9
+UPDATE vendas SET data = '2024-04-20', produto = 'Caderno', quantidade = 2, valor_unitario = 11.5, total = 23 WHERE id = 9;
+
+-- Atualizar dados para o ID 10
+UPDATE vendas SET data = '2024-04-20', produto = 'Lápis', quantidade = 1, valor_unitario = 1.2, total = 1.2 WHERE id = 10;
+
+-- Atualizar dados para o ID 11
+UPDATE vendas SET data = '2024-04-20', produto = 'Caderno', quantidade = 3, valor_unitario = 11.5, total = 34.5 WHERE id = 11;
+
+-- Atualizar dados para o ID 12
+UPDATE vendas SET data = '2024-04-20', produto = 'Caderno', quantidade = 2, valor_unitario = 11.5, total = 23 WHERE id = 12;
+
+-- Atualizar dados para o ID 13
+UPDATE vendas SET data = '2024-04-20', produto = 'Caneta', quantidade = 1, valor_unitario = 2.8, total = 2.8 WHERE id = 13;
+
+-- Atualizar dados para o ID 14
+UPDATE vendas SET data = '2024-04-20', produto = 'Caderno', quantidade = 2, valor_unitario = 11.5, total = 23 WHERE id = 14;
+
+-- Atualizar dados para o ID 15
+UPDATE vendas SET data = '2024-04-20', produto = 'Lápis', quantidade = 3, valor_unitario = 1.2, total = 3.6 WHERE id = 15;
+
+-- Atualizar dados para o ID 16
+UPDATE vendas SET data = '2024-04-21', produto = 'Caneta', quantidade = 1, valor_unitario = 2.8, total = 2.8 WHERE id = 16;
+
+-- Atualizar dados para o ID 17
+UPDATE vendas SET data = '2024-04-22', produto = 'Caneta', quantidade = 2, valor_unitario = 2.8, total = 5.6 WHERE id = 17;
+
+-- Atualizar dados para o ID 18
+UPDATE vendas SET data = '2024-04-23', produto = 'Borracha', quantidade = 3, valor_unitario = 1.5, total = 4.5 WHERE id = 18;
+
+-- Atualizar dados para o ID 19
+UPDATE vendas SET data = '2024-04-24', produto = 'Caneta', quantidade = 1, valor_unitario = 3.5, total = 3.5 WHERE id = 19;
+
+-- Atualizar dados para o ID 20
+UPDATE vendas SET data = '2024-04-25', produto = 'Borracha', quantidade = 2, valor_unitario = 1.7, total = 3.4 WHERE id = 20;
+
+-- Atualizar dados para o ID 21
+UPDATE vendas SET data = '2024-04-26', produto = 'Caderno', quantidade = 3, valor_unitario = 13.5, total = 40.5 WHERE id = 21;
+
+-- Atualizar dados para o ID 22
+UPDATE vendas SET data = '2024-04-23', produto = 'Lápis', quantidade = 1, valor_unitario = 2, total = 2 WHERE id = 22;
+
+-- Atualizar dados para o ID 23
+UPDATE vendas SET data = '2024-04-23', produto = 'Caneta', quantidade = 2, valor_unitario = 3, total = 6 WHERE id = 23;
+
+-- Atualizar dados para o ID 24
+UPDATE vendas SET data = '2024-04-23', produto = 'Caderno', quantidade = 3, valor_unitario = 12, total = 36 WHERE id = 24;
+
+-- Atualizar dados para o ID 25
+UPDATE vendas SET data = '2024-04-23', produto = 'Lápis', quantidade = 1, valor_unitario = 2, total = 2 WHERE id = 25;
+
+-- Atualizar dados para o ID 26
+UPDATE vendas SET data = '2024-04-23', produto = 'Caneta', quantidade = 2, valor_unitario = 3, total = 6 WHERE id = 26;
+
+-- Atualizar dados para o ID 27
+UPDATE vendas SET data = '2024-04-23', produto = 'Borracha', quantidade = 3, valor_unitario = 1.5, total = 4.5 WHERE id = 27;
+
+-- Atualizar dados para o ID 28
+UPDATE vendas SET data = '2024-04-23', produto = 'Borracha', quantidade = 1, valor_unitario = 1.5, total = 1.5 WHERE id = 28;
+
+-- Atualizar dados para o ID 29
+UPDATE vendas SET data = '2024-04-23', produto = 'Caneta', quantidade = 2, valor_unitario = 3, total = 6 WHERE id = 29;
+
+-- Atualizar dados para o ID 30
+UPDATE vendas SET data = '2024-04-23', produto = 'Caneta', quantidade = 2, valor_unitario = 3, total = 6 WHERE id = 30;
+

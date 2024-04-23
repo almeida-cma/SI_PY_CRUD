@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Vendas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Vendas</h1>
+        <form action="{{ url_for('consultar') }}" method="post">
+            <label for="data_inicio">Data de Início:</label>
+            <input type="date" id="data_inicio" name="data_inicio" required><br>
+            <label for="data_fim">Data de Fim:</label>
+            <input type="date" id="data_fim" name="data_fim" required><br>
+            <input type="submit" value="Consultar" class="btn btn-primary">
+        </form>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Voltar para Lista de Vendas</a>
+    </div>
+</body>
+</html>
